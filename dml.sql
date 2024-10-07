@@ -1,4 +1,4 @@
-
+USE Plus_Games; 
 
 --
 -- Dumping data for table `Categoria`
