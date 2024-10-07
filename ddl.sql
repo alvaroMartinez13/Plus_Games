@@ -1,3 +1,6 @@
+CREATE SCHEMA Plus_Games;
+USE Plus_Games;
+
 CREATE TABLE `Categoria` (
   `categoria_Id` int NOT NULL AUTO_INCREMENT,
   `nombre` varchar(45) NOT NULL,
