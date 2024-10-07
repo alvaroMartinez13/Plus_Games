@@ -285,6 +285,18 @@ BEGIN
 END
 ```
 
+# Ejecución
+CALL ListarVideojuegosPorPlataforma('PlayStation 5');
+CALL ProductosBajoStockPorCategoria('Videojuegos', 10);
+CALL VentasClienteRangoFechas('Carlos Fernández', '2024-01-01', '2024-12-31');
+SELECT TotalVentasEmpleadoMes('Juan Pérez', 2024, 10) AS TotalVentas;
+CALL ProductosMasVendidosPeriodo('2024-01-01', '2024-12-31', 5);
+SELECT StockDisponibleProducto('Juego de Aventura') AS StockDisponible;
+CALL OrdenesCompraProveedorUltimoAnio('Proveedor A');
+CALL EmpleadosMasDeUnAnio();
+SELECT TotalProductosVendidosDia('2024-10-01') AS TotalVendido;
+CALL VentasProductoEspecifico('Juego de Aventura');
+
 ## ✍️ Autor
 - Alvaro Martinez 
 - Juliana Numa 💻
